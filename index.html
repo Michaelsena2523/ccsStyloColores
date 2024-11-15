@@ -1,228 +1,261 @@
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title> Porfolios </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Propiedades CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .section-title {
+      background-color: #007bff;
+      color: white;
+      padding: 10px;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
-
 <body>
+   <header>
+    <img src="./img/infotep.png" alt="">
+   </header>
+ 
+  <section>
+    <div class="section-title">Tema 1 - Texto</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Propiedad</th>
+          <th>Valor Inicial</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>color</td>
+          <td>initial</td>
+          <td>Define el color del texto.</td>
+        </tr>
+        <tr>
+          <td>font-family</td>
+          <td>initial</td>
+          <td>Especifica la familia tipográfica del texto.</td>
+        </tr>
+        <tr>
+          <td>font-size</td>
+          <td>16px</td>
+          <td>Especifica el tamaño de la fuente.</td>
+        </tr>
+        <tr>
+          <td>font-weight</td>
+          <td>normal</td>
+          <td>Define el grosor de la fuente.</td>
+        </tr>
+        <tr>
+          <td>font-style</td>
+          <td>normal</td>
+          <td>Especifica el estilo de la fuente, como normal, cursiva o oblicua.</td>
+        </tr>
+        <tr>
+          <td>font-variant</td>
+          <td>normal</td>
+          <td>Controla la forma de la fuente, como minúsculas pequeñas (small-caps).</td>
+        </tr>
+        <tr>
+          <td>font</td>
+          <td>initial</td>
+          <td>Define todas las propiedades de la fuente en una sola declaración.</td>
+        </tr>
+        <tr>
+          <td>text-align</td>
+          <td>left</td>
+          <td>Define la alineación del texto (izquierda, derecha, centro o justificado).</td>
+        </tr>
+        <tr>
+          <td>line-height</td>
+          <td>normal</td>
+          <td>Establece la altura de la línea, es decir, el espacio entre líneas de texto.</td>
+        </tr>
+        <tr>
+          <td>text-decoration</td>
+          <td>none</td>
+          <td>Especifica la decoración del texto, como subrayado, tachado, etc.</td>
+        </tr>
+        <tr>
+          <td>text-transform</td>
+          <td>none</td>
+          <td>Modifica el caso del texto, como convertir a mayúsculas o minúsculas.</td>
+        </tr>
+        <tr>
+          <td>vertical-align</td>
+          <td>baseline</td>
+          <td>Controla la alineación vertical del texto en relación con su contenedor.</td>
+        </tr>
+        <tr>
+          <td>text-indent</td>
+          <td>0</td>
+          <td>Define la cantidad de sangría en el primer renglón de un párrafo.</td>
+        </tr>
+        <tr>
+          <td>letter-spacing</td>
+          <td>normal</td>
+          <td>Controla el espacio entre las letras de un texto.</td>
+        </tr>
+        <tr>
+          <td>word-spacing</td>
+          <td>normal</td>
+          <td>Controla el espacio entre las palabras en un texto.</td>
+        </tr>
+        <tr>
+          <td>white-space</td>
+          <td>normal</td>
+          <td>Controla cómo se gestionan los espacios en blanco dentro del texto.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-    <header>
-        <h1> Michael sena monegro </h1>
-        <nav>
-            <a href="#experiencias"> Experiencia </a>
-            <a href="#proyectos"> Proyectos </a>
-            <a href="https://www.youtube.com/@angeljuniorsorianosorido0" target="_blank" rel="noreferrer"> Youtube </a>
-        </nav>
-    </header>
+ 
+  <section>
+    <div class="section-title">Tema 2 - Enlaces</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Característica</th>
+          <th>Propiedades</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tamaño, Color y Decoración</td>
+          <td>color, font-size, text-decoration</td>
+          <td>Define el color, tamaño y la decoración del enlace (por ejemplo, subrayado o sin subrayado).</td>
+        </tr>
+        <tr>
+          <td>Decoración Personalizada</td>
+          <td>border, padding, background-color</td>
+          <td>Permite personalizar la apariencia del enlace con bordes, relleno y fondo.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-    <section role="dialog">
-        
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ohp8ZPF3wtc?si=nbfFrT34MfcSPo6V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              
-        <br>
-        <audio
-            src="https://ia801600.us.archive.org/0/items/50-cent-get-rich-or-die-tryin-20th-anniversary/Get%20Rich%20Or%20Die%20Tryin%27/05-In%20Da%20Club.mp3"
-            autoplay loop controls muted>
-        </audio>
-    </section>
+  
+  <section>
+    <div class="section-title">Tema 3 - Imágenes</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Característica</th>
+          <th>Propiedades</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Anchura y Altura</td>
+          <td>width, height</td>
+          <td>Define las dimensiones de la imagen (anchura y altura).</td>
+        </tr>
+        <tr>
+          <td>Eliminar el Borde</td>
+          <td>border</td>
+          <td>Elimina el borde alrededor de la imagen, si es necesario.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-    <main>
-        <p> Desarrollador fron-end 
-            con más de 3 años de
-            experiencia en soporte
-            técnico Y asesoría de TIC
-            <span class="penelope"> Contacto: 809-351-8818 </span>
-        </p>
-
-
-        <article>
-            <h2> Mis competencias </h2>
-            <ol type="A">
-                <li> Soporte Tecnico </li>
-                <li> Ayuda </li>
-                <li> Desarrollo </li>
-            </ol>
-        </article>
-        <a download href="michael.jpg">
-            <img src="img/Imagen de WhatsApp 2024-10-24 a las 19.23.50_ac3b3944.jpg" alt="Michael" id="mi-photo" width="200" height="200">
-        </a>
-
-        <section id="experiencias">
-            <article>
-                <h2>Experiencia Laboral </h2>
-                <h4>Hospital Materno Reynaldo Almanzar
-                    <samp>2016 - Actulidad </samp>
-                </h4>
-                <p>Desarrollador fron-end </p>
-                <div>
-                    <ol type="I">
-                        <li> Administrado de base de Datos </li>
-                        <li> Programador Web </li>
-                        <li> administrador Windows server </li>
-                    </ol>
-                </div>
-                <button> Haz clic aqui </button>
-            </article>
-
-            <article>
-                <h2>Experiencia Laboral </h2>
-                <h4>Centro laser
-                    <samp>2019 - Actulidad </samp>
-                </h4>
-                <p> Soporte Tecnico </p>
-                <div>
-                    <ol type="1" reversed start="10">
-                        <li> Soporte Tecnico </li>
-                        <li> Programador Web </li>
-                        <li value="25"> Admnistrador de Windows Server </li>
-                    </ol>
-                </div>
-            </article>
-        </section>
-
-        <section id="proyecto">
-            <header> Mis proyectos </header>
-            <div class="contendor-proyectos">
-                <div>
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                    <div>
-                        <strong> Tecnologia utilizadas </strong>
-                        <ol>
-                            <li> HTML </li>
-                            <li> CSS </li>
-                            <li> JavaScript </li>
-                            <li> react.js </li>
-                        </ol>
-                    </div>
-                </div>
-
-                <div>
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                    <div>
-                        <strong> Tecnologia utilizadas </strong>
-                        <ol>
-                            <li> HTML </li>
-                            <li> CSS </li>
-                            <li> JavaScript </li>
-                            <li> React.js </li>
-                        </ol>
-                    </div>
-                </div>
-
-                <div>
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                    <div>
-                        <strong> Tecnologia utilizadas </strong>
-                        <ol>
-                            <li> HTML </li>
-                            <li> CSS </li>
-                            <li> JavaScript </li>
-                            <li> React.js </li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2> Preguntas frecuentas? </h2>
-            <details>
-                <summary>Que estudios tienes?</summary>
-                <p> Tengo una ingenieria en informatica en la Universidad O&M</p>
-            </details>
-
-            <details>
-                <summary>Cuales son tus hobbies?</summary>
-                <p> Me gusta jugar video juegos y programar </p>
-            </details>
-
-            <details>
-                <summary>Que lenguajes de programacion conoces?</summary>
-                <p> Conozco HTML, CSS, JavaScript, Node.js, PHP, Python, Java, C# </p>
-            </details>
-            <br>
-        </section>
+ 
+  <section>
+    <div class="section-title">Tema 4 - Listas</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Propiedad</th>
+          <th>Valor Inicial</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>list-style-type</td>
+          <td>disc</td>
+          <td>Define el tipo de marcador para la lista, como un círculo (disc), cuadrado (square) o número (decimal).</td>
+        </tr>
+        <tr>
+          <td>list-style-position</td>
+          <td>outside</td>
+          <td>Define si el marcador de lista está dentro o fuera del cuadro de la lista.</td>
+        </tr>
+        <tr>
+          <td>list-style-image</td>
+          <td>none</td>
+          <td>Permite usar una imagen como marcador de lista en lugar de un marcador estándar.</td>
+        </tr>
+        <tr>
+          <td>list-style</td>
+          <td>list-style-type, list-style-position, list-style-image</td>
+          <td>Propiedad abreviada que combina `list-style-type`, `list-style-position` y `list-style-image`.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
 
-        <form action="/" method="post">
-            <fieldset>
-                <legend> Informacion del contacto </legend>
-                <div role="contentinfo">
-                    <label> Nombre:
-                        <input type="text" placeholder="Escribe tu nombre" required>
-                    </label>
-                </div>
-                <div role="contentinfo">
-                    <label> Correo:
-                        <input type="email" placeholder="Escribe tu Correo 📧" required>
-                    </label>
-                </div>
-                <div role="contentinfo">
-                    <label> Fecha de la cita :
-                        <input type="datetime-local" equired>
-                    </label>
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <legend> Informacion adicional </legend>
-                <div role="contentinfo">
-                    <label> Telefono:
-                        <input type="tel" placeholder="809-000-0000" required pattern="[0-9]{10}">
-                    </label>
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <legend> Otros? </legend>
-                <div>
-                    <label for="why"> Por que quieres contactar </label>
-                    <select name="why" id="why">
-                        <option value="1"> Trabajo </option>
-                        <option value="2"> Duda </option>
-                        <option value="3"> Mas informacion </option>
-                    </select>
-                </div>
-
-                <div>
-                    <label for="terminos"> Acepta los terminos? </label>
-                    <input type="checkbox" name="terminos" id="terminos" required>
-                </div>
-
-                <div>
-                    <datalist id="lunguages">
-                        <option value="Java">
-                        <option value="Python">
-                        <option value="JavaScript">
-                        <option value="Node.js">
-                    </datalist>
-
-                    <label for="lenguaje"> Con que leja te puedo ayudar?
-                        <input type="text" list="lunguages" id="lenguaje" name="lenguaje">
-                    </label>
-                </div>
-            </fieldset>
-
-            <button> Enviar informacion </button>
-        </form>
-
-        <footer>
-            <div class="footer-text">
-                <h4>&copy; Copyght 2020 Michael sena. Todos los derechos reservados</h1>
-                    <a href="mailto:aux.asoriano@gmail.com"> Escrime 📨</a>
-                    <a href="tel:+8093139823"> Llamame 📳</a>
-                    <a href="whatsapp://send?Hola sorido0"> Whatsapp </a>
-            </div>
-        </footer>
-    </main>
-
-</body
+  <section>
+    <div class="section-title">Tema 5 - Tablas</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Propiedad</th>
+          <th>Se Aplica a</th>
+          <th>Valor Inicial</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>border-collapse</td>
+          <td>table</td>
+          <td>separate</td>
+          <td>Controla si los bordes de las celdas deben colapsar en un solo borde o permanecer separados.</td>
+        </tr>
+        <tr>
+          <td>border-spacing</td>
+          <td>table</td>
+          <td>0</td>
+          <td>Establece el espacio entre las celdas de una tabla.</td>
+        </tr>
+        <tr>
+          <td>empty-cells</td>
+          <td>table</td>
+          <td>show</td>
+          <td>Define si las celdas vacías deben ser visibles o no.</td>
+        </tr>
+        <tr>
