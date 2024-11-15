@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Propiedades CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .section-title {
+      background-color: #00f7ff;
+      color: white;
+      padding: 10px;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+    
+  <header>
+    <img src="./img/infotep.png" alt="">
+    <p style="font-size: 25px;">Identifica y describe las propiedades de los siguientes elementos CSS: </p>
+  </header>
+
+  <section>
+    <div class="section-title">Tema 1 - Texto</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Propiedad</th>
+          <th>Valor Inicial</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>color</td>
+          <td>initial</td>
+          <td>Define el color del texto.</td>
+        </tr>
+        <tr>
+          <td>font-family</td>
+          <td>initial</td>
+          <td>Especifica la familia tipográfica del texto.</td>
+        </tr>
+        <tr>
+          <td>font-size</td>
+          <td>16px</td>
+          <td>Especifica el tamaño de la fuente.</td>
+        </tr>
+        <tr>
+          <td>font-weight</td>
+          <td>normal</td>
+          <td>Define el grosor de la fuente.</td>
+        </tr>
+        <tr>
+          <td>font-style</td>
+          <td>normal</td>
+          <td>Especifica el estilo de la fuente, como normal, cursiva o oblicua.</td>
+        </tr>
+        <tr>
+          <td>font-variant</td>
+          <td>normal</td>
+          <td>Controla la forma de la fuente, como minúsculas pequeñas (small-caps).</td>
+        </tr>
+        <tr>
+          <td>font</td>
+          <td>initial</td>
+          <td>Define todas las propiedades de la fuente en una sola declaración.</td>
+        </tr>
+        <tr>
+          <td>text-align</td>
+          <td>left</td>
+          <td>Define la alineación del texto (izquierda, derecha, centro o justificado).</td>
+        </tr>
+        <tr>
+          <td>line-height</td>
+          <td>normal</td>
+          <td>Establece la altura de la línea, es decir, el espacio entre líneas de texto.</td>
+        </tr>
+        <tr>
+          <td>text-decoration</td>
+          <td>none</td>
+          <td>Especifica la decoración del texto, como subrayado, tachado, etc.</td>
+        </tr>
+        <tr>
+          <td>text-transform</td>
+          <td>none</td>
+          <td>Modifica el caso del texto, como convertir a mayúsculas o minúsculas.</td>
+        </tr>
+        <tr>
+          <td>vertical-align</td>
+          <td>baseline</td>
+          <td>Controla la alineación vertical del texto en relación con su contenedor.</td>
+        </tr>
+        <tr>
+          <td>text-indent</td>
+          <td>0</td>
+          <td>Define la cantidad de sangría en el primer renglón de un párrafo.</td>
+        </tr>
+        <tr>
+          <td>letter-spacing</td>
+          <td>normal</td>
+          <td>Controla el espacio entre las letras de un texto.</td>
+        </tr>
+        <tr>
+          <td>word-spacing</td>
+          <td>normal</td>
+          <td>Controla el espacio entre las palabras en un texto.</td>
+        </tr>
+        <tr>
+          <td>white-space</td>
+          <td>normal</td>
+          <td>Controla cómo se gestionan los espacios en blanco dentro del texto.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+
+  <section>
+    <div class="section-title">Tema 2 - Enlaces</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Característica</th>
+          <th>Propiedades</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tamaño, Color y Decoración</td>
+          <td>color, font-size, text-decoration</td>
+          <td>Define el color, tamaño y la decoración del enlace.</td>
+        </tr>
+        <tr>
+          <td>Decoración Personalizada</td>
+          <td>border, padding, background-color</td>
+          <td>Permite personalizar la apariencia del enlace con bordes, relleno y fondo.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+
+  <section>
+    <div class="section-title">Tema 3 - Imágenes</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Característica</th>
+          <th>Propiedades</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Anchura y Altura</td>
+          <td>width, height</td>
+          <td>Define las dimensiones de la imagen.</td>
+        </tr>
+        <tr>
+          <td>Eliminar el Borde</td>
+          <td>border</td>
+          <td>Elimina el borde alrededor de la imagen.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+
+  <section>
+    <div class="section-title">Tema 4 - Listas</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Propiedad</th>
+          <th>Valor Inicial</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>list-style-type</td>
+          <td>disc</td>
+          <td>Define el tipo de marcador (círculo, cuadrado, numérico, etc.).</td>
+        </tr>
+        <tr>
+          <td>list-style-position</td>
+          <td>outside</td>
+          <td>Define si el marcador de lista está dentro o fuera del cuadro de la lista.</td>
+        </tr>
+        <tr>
+          <td>list-style-image</td>
+          <td>none</td>
+          <td>Permite usar una imagen como marcador de lista.</td>
+        </tr>
+        <tr>
+          <td>list-style</td>
+          <td>list-style-type, list-style-position, list-style-image</td>
+          <td>Una propiedad abreviada para definir todas las propiedades relacionadas con los marcadores de lista.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+
+  <section>
+    <div class="section-title">Tema 5 - Tablas</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Propiedad</th>
+          <th>Se Aplica a</th>
+          <th>Valor Inicial</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>border-collapse</td>
+          <td>table</td>
+          <td>separate</td>
+          <td>Define si los bordes de la tabla se colapsan o no.</td>
+        </tr>
+        <tr>
+          <td>border-spacing</td>
+          <td>table</td>
+          <td>0</td>
+          <td>Define el espacio entre los bordes de las celdas.</td>
+        </tr>
+        <tr>
+          <td>empty-cells</td>
+          <td>table</td>
+          <td>show</td>
+          <td>Define si las celdas vacías deben mostrarse con bordes o no.</td>
+        </tr>
+        <tr>
+          <td>caption-side</td>
+          <td>caption</td>
+          <td>top</td>
+          <td>Define si el título de
